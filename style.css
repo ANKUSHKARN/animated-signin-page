@@ -164,3 +164,14 @@ section .signin .content .form .inputBox input:valid~i{
         height: 18vw;
     }
 }
+
+@media (max-width:600px) {
+    section{
+        display: none;
+    }
+    .mobile{
+        text-align: center;
+        z-index: 5000;
+        color: red;
+    }
+}
